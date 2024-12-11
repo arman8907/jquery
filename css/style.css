@@ -1,0 +1,389 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(rgba(0, 8, 32, 0.6), rgba(0, 8, 32, 0.6)), url(../img/hero-bg.jpg);
+    height: 100vh;
+    position: relative;
+}
+
+header nav {
+    background-color: rgba(0, 8, 32, 0.6);
+}
+
+header nav ul li a {
+    color: white !important;
+}
+
+header nav .navbar-brand img {
+    width: 150px !important;
+}
+
+header .headerDiv {
+    padding-top: 15%;
+}
+
+header h2 {
+    font-size: 50px;
+    color: white;
+}
+
+header .headerDiv2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 8, 32, 0.6);
+    color: white;
+}
+
+@media screen and (max-width: 390px) {
+    body header .headerDiv2 .container {
+        padding: 3px;
+    }
+}
+
+.sec1 {
+    padding: 80px;
+}
+
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+    body #scrollToTop {
+        position: fixed;
+        right: 90px;
+    }
+}
+
+.sec1 img {
+    width: 100%;
+}
+
+@media screen and (max-width: 390px) {
+    body .sec1 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body .sec1 .col-md {
+        width: 100%;
+    }
+}
+
+.sec2 button {
+    background-color: #f82249;
+    border-radius: 30px !important;
+    padding: 5px 65px !important;
+}
+
+.sec2 .borderBottom {
+    border-bottom: 1px solid rgba(47, 49, 56, 0.3);
+    padding: 20px 0;
+}
+
+.tabs {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tab-list {
+    padding-bottom: 1rem;
+}
+
+.tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: 800;
+    width: 100px;
+    background-color: black;
+}
+
+.tab.active {
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+}
+
+.tab-content {
+    background-color: white;
+    display: none;
+    padding: 1.5rem;
+    color: slategray;
+}
+
+.tab-content.show {
+    display: block;
+}
+
+.sec2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+}
+
+@media screen and (max-width: 390px) {
+    body .sec2 a {
+        font-size: 12px;
+        width: 80px;
+    }
+}
+
+.sec3 {
+    padding: 80px 0;
+}
+
+.sec3 img {
+    border-radius: 5px;
+    width: 400px;
+    cursor: zoom-in;
+    transition: .5s;
+}
+
+.sec3 img:hover {
+    opacity: .7;
+}
+
+.div1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.737);
+}
+
+.div1 img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    animation: zoom .6s;
+}
+
+@keyframes zoom {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: .3;
+    cursor: zoom-out;
+}
+
+.sec3 img {
+    cursor: pointer;
+    width: 100% !important;
+}
+
+.sec3 .myimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/venue-info-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg2 {
+    background-image: url(../img/venue-gallery-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg3 {
+    background-image: url(../img/venue-gallery-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg4 {
+    background-image: url(../img/venue-gallery-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg5 {
+    background-image: url(../img/venue-gallery-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg6 {
+    background-image: url(../img/venue-gallery-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg7 {
+    background-image: url(../img/venue-gallery-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg8 {
+    background-image: url(../img/venue-gallery-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .myimg9 {
+    background-image: url(../img/venue-gallery-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white !important;
+}
+
+.sec3 .col {
+    margin: 2px !important;
+    transition: all .5s ease-in-out;
+    overflow: hidden !important;
+}
+
+.sec3 .col:hover {
+    transform: scale(1.1);
+}
+
+.sec4 img {
+    width: 100% !important;
+}
+
+.sec5 img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    text-align: center;
+    padding-top: 20%;
+}
+
+#image {
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mainimg {
+    width: 500px;
+}
+
+.sec6 {
+    padding: 80px;
+}
+
+@media screen and (max-width: 390px) {
+    body .sec6 {
+        padding: 0;
+    }
+}
+
+.sec7 {
+    padding: 80px;
+    background-color: rgb(245, 245, 245);
+}
+
+@media screen and (max-width: 390px) {
+    body .sec7 {
+        padding: 10px;
+    }
+}
+
+.sec8 {
+    padding: 80px;
+}
+
+@media screen and (max-width: 390px) {
+    body .sec8 {
+        padding: 0px;
+    }
+}
+
+footer {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0, 0, 73);
+}
+
+footer h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.sec8 {
+    background-color: rgb(250, 250, 250);
+}
+
+.sec8 .col {
+    background-color: white;
+}
+
+.sec8 .col {
+    background-color: white;
+}
+
+footer p:hover {
+    transition: 0.3s;
+    color: #f82249;
+}
